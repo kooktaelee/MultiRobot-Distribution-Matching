@@ -18,7 +18,6 @@ We provide implementations for both centralized and decentralized scenarios:
 ### Core Dynamics
 This implementation applies optimal control based on **linear time-invariant (LTI) system dynamics**. The control inputs are computed iteratively over a planning horizon $T$. After $T$ steps, the control weights are re-initialized, and the process repeats to achieve convergence to the target distribution.
 
-
 ### Nonlinear Control-Affine Dynamics
 For the development of **control-affine nonlinear dynamics**, please refer to the main paper.
 ---
