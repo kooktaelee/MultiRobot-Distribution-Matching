@@ -1,3 +1,5 @@
+<meta name="google-site-verification" content="VXmA7mFW5bRy9lkGmEZfm66Nk4jl-pTVuYS9v70Q2C8" />
+
 # MultiRobot-Distribution-Matching
 
 Official implementation of the paper **"Optimal Transport-Based Decentralized Multi-Agent Distribution Matching"**, published in **IEEE Transactions on Automatic Control (TAC), 2026**.
