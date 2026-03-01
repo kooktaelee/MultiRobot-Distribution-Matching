@@ -36,3 +36,9 @@ python centralized_main.py
 
 # Run decentralized simulation
 python decentralized_main.py
+```
+
+### License
+This code is provided for **academic research purposes only**. Commercial use is strictly prohibited. See the LICENSE file for details.
+
+
