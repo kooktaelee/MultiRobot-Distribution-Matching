@@ -122,4 +122,5 @@ for i in range(ap_num):
 plt.grid(True)
 plt.legend()
 plt.title("Centralized Multi-Agent Distribution Matching", fontsize=14)
+plt.savefig('../results/centralized_result.jpg', dpi=300)
 plt.show()
