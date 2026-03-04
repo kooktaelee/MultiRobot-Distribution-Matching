@@ -7,8 +7,9 @@ This repository provides robust control algorithms for multi-robot systems to ac
 ![Simulation Result](result.jpeg)
 
 ## Links
-* **Paper (IEEE)**: https://doi.org/10.1109/TAC.2026.3668445
-* **Paper (arXiv)**: https://arxiv.org/abs/2601.00548
+* **Paper (IEEE)**: [10.1109/TAC.2026.3668445](https://doi.org/10.1109/TAC.2026.3668445)
+* **Paper (arXiv)**: [arXiv:2601.00548](https://arxiv.org/abs/2601.00548)
+
 ---
 
 ## Repository Overview
