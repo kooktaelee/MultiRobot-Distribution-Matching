@@ -6,8 +6,8 @@ This repository provides robust control algorithms for multi-robot systems to ac
 
 <p align="center">
   <img src="Linearized_Swarm_Matching.gif" width="550">
+  <img src="result.jpeg" width="550">
 </p>
-![Simulation Result](result.jpeg)
 
 ## Links
 * **Paper (IEEE)**: [10.1109/TAC.2026.3668445](https://doi.org/10.1109/TAC.2026.3668445)
