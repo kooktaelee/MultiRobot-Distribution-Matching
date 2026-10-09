@@ -4,6 +4,7 @@ Official implementation of the paper **"Optimal Transport-Based Decentralized Mu
 
 This repository provides robust control algorithms for multi-robot systems to achieve target distribution matching using **Optimal Transport** theory.
 
+![Simulation Result](Linearized_Swarm_Matching.gif)
 ![Simulation Result](result.jpeg)
 
 ## Links
