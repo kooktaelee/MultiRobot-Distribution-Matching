@@ -20,9 +20,9 @@ We provide implementations for both centralized and decentralized scenarios:
 
 1.  **centralized_main.py**: Solves the global optimal transport problem sequentially to determine the optimal target position for each robot.
 2.  **decentralized_main.py**: Implements a memory-augmented min-consensus algorithm for scenarios with limited local communication.
-3.  (Added) **animated_centralized_main.py**: Animated Distribution Matching Demo. An animated visualization of multi-robot distribution matching, extending the original implementation with text- and shape-based target distributions. The robots automatically form patterns matching the specified text or shape.
-To customize the visualization, modify the target definitions in targets_list. You can replace "TTU", "IEEE\n TAC", or the star-shaped distribution with your desired text or shape. For text targets, the sampling process automatically converts the rendered characters into target points, allowing the robots to match different words, letters, or multiline text without modifying the control algorithm.
-This demo provides a visual illustration of the proposed distribution matching framework; the underlying control and target assignment algorithms remain based on the original implementation.
+3.  (Added) **animated_centralized_main.py**:
+    An animated visualization of multi-robot distribution matching, extending the original implementation with text- and shape-based target distributions. The robots automatically form patterns matching the specified text or shape. To customize the visualization, modify the target definitions in targets_list. You can replace "TTU", "IEEE\n TAC", or the star-shaped distribution with your desired text or shape. For text targets, the sampling process automatically converts the rendered characters into target points, allowing the robots to match different words, letters, or multiline text without modifying the control algorithm.
+This demo provides a visual illustration of the proposed distribution matching framework.
 
 ### Core Dynamics
 This implementation applies optimal control based on **linear time-invariant (LTI) system dynamics**. The control inputs are computed iteratively over a planning horizon $T$. After $T$ steps, the control weights are re-initialized, and the process repeats to achieve convergence to the target distribution.
